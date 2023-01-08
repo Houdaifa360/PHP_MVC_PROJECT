@@ -1,0 +1,18 @@
+{
+    "name": "php/mvc",
+    "authors": [
+        {
+            "name": "Houdaifa360",
+            "email": "boucena214@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "app\\": "./"
+        }
+    },
+    "require": {
+        "vlucas/phpdotenv": "^5.5",
+        "ho_b7/php-mvc-core": "dev-master"
+    }
+}
